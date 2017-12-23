@@ -61,40 +61,48 @@
 }
 
 .next-section{
+	
 	position:absolute;
+	bottom:50px;
 
-	left:50%;
-	margin-left:-10px;
+	width:25px;
+	height:40px;
 
-	width:0;
-	height:0;
+	border:2px solid #fff;
 
-	border-left: 20px solid transparent;
-	border-right: 20px solid transparent;
-	border-top:20px solid #0ba191;
+	border-radius:15px;
+
+
+}
+
+.next-section:after{
+	content:"";
+	display: block;
+	width:7px;
+	height:7px;
+	margin:10px auto 0;
+
+	border-radius:5px;
+
+	background:white;
 
 	animation-name:animation;
-	animation-duration: 1s;
+	animation-duration: 1.5s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
+	animation-direction: alternate;
 
 }
 
 @keyframes animation{
 	0%{
-		position:absolute;
-		bottom:60px;
+		margin-top:8px;
 	}
 
 	50%{
-		position:absolute;
-		bottom:55px;
+		margin-top:22px;
 	}
 
-	100%{
-		position:absolute;
-		bottom:60px;
-	}
 }
 
 .highlight-bigger{
