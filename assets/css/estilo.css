@@ -65,10 +65,10 @@
 	position:absolute;
 	bottom:50px;
 
-	width:25px;
-	height:40px;
+	width:20px;
+	height:30px;
 
-	border:2px solid #fff;
+	border:1px solid #fff;
 
 	border-radius:15px;
 
@@ -78,16 +78,16 @@
 .next-section:after{
 	content:"";
 	display: block;
-	width:7px;
-	height:7px;
-	margin:10px auto 0;
+	width:5px;
+	height:5px;
+	margin:8px auto 0;
 
 	border-radius:5px;
 
 	background:white;
 
 	animation-name:animation;
-	animation-duration: 1.5s;
+	animation-duration: 2s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
@@ -100,7 +100,7 @@
 	}
 
 	50%{
-		margin-top:22px;
+		margin-top:18px;
 	}
 
 }
@@ -125,6 +125,7 @@
 
 .presentation{
 	width:60%;
+	font-size:20px;
 	margin-bottom:30px;
 	color:#fff;
 }
